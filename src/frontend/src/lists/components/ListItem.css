@@ -1,0 +1,60 @@
+.list-item {
+  margin: 1rem 0;
+}
+
+.list-item__content {
+  padding: 0;
+}
+
+.list-item__info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.list-item__image {
+  width: 100%;
+  height: 12.5rem;
+  margin-right: 1.5rem;
+}
+
+.list-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.list-item__info h2,
+.list-item__info h3,
+.list-item__info p {
+  margin: 0 0 0.5rem 0;
+}
+
+.list-item__actions {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.list-item__modal-content {
+  padding: 0;
+}
+
+.list-item__modal-actions {
+  text-align: right;
+}
+
+.list-item__actions button,
+.list-item__actions a {
+  margin: 0.5rem;
+}
+
+.map-container {
+  height: 15rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .list-item__image {
+    height: 20rem;
+  } 
+}
